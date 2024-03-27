@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "four-four-two",
+                "name": "FourFourTwo"
+            },
+            "author": "Ryan Dabbs",
+            "title": "Footballer escapes serious injury after crashing airborne into Belgian sports hall",
+            "description": "OH Leuven's Sofian Kiyine was taken to hospital after being launched in his car through the wall of a sports hall",
+            "url": "https://www.fourfourtwo.com/news/footballer-escapes-serious-injury-after-crashing-airborne-into-belgian-sports-hall",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/APitBCyzfaY3H3hexBrzMP-1200-80.jpg",
+            "publishedAt": "2023-04-04T09:39:08Z",
+            "content": "Sofian Kiyine, a Moroccan professional footballer playing for Belgian Pro League side OH Leuven, has escaped serious injury after ploughing his car into a sports hall last week in a high-speed crash.… [+2243 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "talkSPORT",
+            "title": "Football news LIVE: Harry Kane defended against ‘cheat’ taunts, Stellini accuses Tottenham players of ‘not...",
+            "description": "",
+            "url": "https://talksport.com/football/1382890/football-news-live-tottenham-harry-kane-everton-chelsea-liverpool/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/04/DK-TALKSPORT-BLOG-COMP-4TH.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+            "publishedAt": "2023-04-04T07:20:25Z",
+            "content": "News Corp is a network of leading companies in the worlds of diversified media, news, education, and information services."
+        },
+        {
+            "source": {
+                "id": "four-four-two",
+                "name": "FourFourTwo"
+            },
+            "author": "Ryan Dabbs",
+            "title": "Marcus Rashford’s confidence crisis that led him to ask to switch to a holding midfield role",
+            "description": "Instead of developing into one of the best attackers in world football, Rashford could have instead been spraying passes from deeper positions had he got his wish",
+            "url": "https://www.fourfourtwo.com/news/marcus-rashfords-confidence-crisis-that-led-him-to-ask-to-switch-to-a-holding-midfield-role",
+            "urlToImage": "https://cdn.mos.cms.futurecdn.net/DM4UwfV6DWk7HZnjt9CkmG-1200-80.jpg",
+            "publishedAt": "2023-04-04T05:00:22Z",
+            "content": "Marcus Rashford has proven this season he is one of the best forwards in the world, putting a tumultuous 2021/22 campaign behind him to thrive under the coaching of Erik ten Hag at Old Trafford. \r\nHo… [+2024 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        }
+    ]
+}
