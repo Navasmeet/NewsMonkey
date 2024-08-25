@@ -76,7 +76,17 @@ constructor(props){
 
   }
   fetchMoreData = async() => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props. category}&apiKey=7d1a333e9d0749c59774d53f76d298c2&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+
+
+    // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props. category}&apiKey=7d1a333e9d0749c59774d53f76d298c2&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+
+
+
+    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props. category}&apiKey=cc6be43c3c624f189d3470efde03e881&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
+
+
+
+
     // this.setState({loading:true})
     this.setState({page: this.state.page+1});
     let data =await fetch(url);
@@ -98,6 +108,7 @@ constructor(props){
           <div className="container">
         <div className="row conatiner">
         {this.state.articles.map((element)=>{
+          console.log(element)
             return <div className="col-md-4" key={element.url}>
             <NewsItem  tittle={element.title? element.title.slice(0,40):""} description ={element.description? element.description.slice(0,88):""} imageUrl ={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
             </div>

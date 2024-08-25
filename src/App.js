@@ -5,6 +5,7 @@ import React, { Component } from 'react'
 import Navbar from './Components/Navbar';
 import LoadingBar from 'react-top-loading-bar'
 import News from './Components/News';
+import ChatB from './Components/ChatB';
 import {
   BrowserRouter,
   Routes,
@@ -43,7 +44,7 @@ export default class App extends Component {
         <Route exact path="/science" element={<News setProgress={this.setProgress} key="science" pageSize={6} country="in" category="science" />} />
         <Route exact path="/sports" element={<News setProgress={this.setProgress} key="sports" pageSize={6} country="in" category="sports" />} />
         <Route exact path="/technology" element={<News setProgress={this.setProgress} key="technology" pageSize={6} country="in" category="technology" />} />
-
+        <Route exact path="/chat" element={<ChatB/>} />
         </Routes>
         </BrowserRouter>
       </div>
